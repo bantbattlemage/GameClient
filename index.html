@@ -23,13 +23,13 @@
     </div>
     <div id="unity-fullscreen-button" style="display: none;"></div>
     <script>
-      const hideFullScreenButton = "";
+      const hideFullScreenButton = "true";
       const buildUrl = "Build";
       const loaderUrl = buildUrl + "/GameClient.loader.js";
       const config = {
-        dataUrl: buildUrl + "/GameClient.data",
-        frameworkUrl: buildUrl + "/GameClient.framework.js",
-        codeUrl: buildUrl + "/GameClient.wasm",
+        dataUrl: buildUrl + "/GameClient.data.gz",
+        frameworkUrl: buildUrl + "/GameClient.framework.js.gz",
+        codeUrl: buildUrl + "/GameClient.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "InterfaceProject",
